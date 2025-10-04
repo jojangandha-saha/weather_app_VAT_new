@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import SearchIcon from '@mui/icons-material/Search';
+
 const api = {
   key: "fed5b93d2334eb86b67b9dfd6c3a5177",
   base: "https://api.openweathermap.org/data/2.5/"
