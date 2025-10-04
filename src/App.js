@@ -5,7 +5,6 @@ const api = {
   key: "fed5b93d2334eb86b67b9dfd6c3a5177",
   base: "https://api.openweathermap.org/data/2.5/"
 }
-
 function App() {
   const [query, setQuery] = useState('');
   const [weather, setWeather] = useState({});
@@ -21,8 +20,7 @@ function App() {
       });
 
   }
-
-  const dateBuilder = (d) => {
+const dateBuilder = (d) => {
     let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
