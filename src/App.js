@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import SearchIcon from '@mui/icons-material/Search';
---- hiding api key
+
 const api = {
   key: "",
   base: "https://api.openweathermap.org/data/2.5/"
