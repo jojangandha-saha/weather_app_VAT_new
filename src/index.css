@@ -9,9 +9,6 @@ body {
 }
 
 .app {
-  /* background-image: url('./assets/cold-bg.jpg'); */
-  /* background-image: url('./assets/2.jpg'); */
-  /* background-image: url('./assets/1.webp'); */
   background-image: url('./assets/4.jpg');
   background-size: cover;
   background-position: bottom;
